@@ -1,0 +1,8 @@
+This would be my first take on Grid Computing. 
+The problem domain in not yet defined and there would be flavor of both, data as well as computational grids.
+Hoping to tacke financial domain. However, that is not finalized yet.
+
+Plan includes:
+* Mechanism to aggregate data from different sources, aggregate them and store them as a model.
+* Expose Apis to run queries against the data to get summarized and functional results over the data.
+* Computation of queries against the rules defined.
