@@ -5,7 +5,7 @@
     <groupId>com.olivelabs</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.olivelabs</groupId>
-  <artifactId>worker</artifactId>
+  <groupId>com.olivelabs.gridcomputing</groupId>
+  <artifactId>common</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </project>

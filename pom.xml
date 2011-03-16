@@ -1,11 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <artifactId>gridcomputing</artifactId>
-    <groupId>com.olivelabs</groupId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
   <groupId>com.olivelabs</groupId>
-  <artifactId>worker</artifactId>
+  <artifactId>gridcomputing</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Grid-Computing</name>
+  <modules>
+  	<module>common</module>
+  	<module>master</module>
+  	<module>worker</module>
+  </modules>
 </project>
