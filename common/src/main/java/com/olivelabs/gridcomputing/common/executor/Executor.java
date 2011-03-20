@@ -5,8 +5,9 @@ import java.rmi.RemoteException;
 
 import com.olivelabs.gridcomputing.common.task.Task;
 
-public interface TaskExecutor extends Remote {
-	public static final String SERVICE_NAME = "";
-
-    Object executeTask(Task t) throws RemoteException;
+public interface Executor extends Node {
+	
+	void register(ResultAggregator aggregator);
+	void unRegister();
+    void executeTask(Task task) throws RemoteException;
 }
